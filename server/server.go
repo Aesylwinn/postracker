@@ -3,10 +3,12 @@ package main
 import (
     "log"
     "net"
+    "github.com/aesylwinn/postracker/common"
 )
 
 func handlePacket(addr net.Addr, buffer []byte) {
-    log.Print("Message:", string(buffer))
+    pos := common.DecodePosition(buffer)
+    log.Print("Message:", pos)
 }
 
 func main() {
