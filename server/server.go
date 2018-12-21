@@ -3,7 +3,7 @@ package main
 import (
     "log"
     "net"
-    "github.com/aesylwinn/postracker/common"
+    "github.com/Aesylwinn/postracker/common"
 )
 
 func handlePacket(addr net.Addr, buffer []byte) {

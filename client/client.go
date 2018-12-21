@@ -8,7 +8,7 @@ import (
     "os"
     "time"
 
-    "github.com/aesylwinn/postracker/common"
+    "github.com/Aesylwinn/postracker/common"
 )
 
 
